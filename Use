@@ -20,4 +20,4 @@ Hi! Work in progress...
 EOF
 echo -e "${RESET}"
 
-sleep 2 && clear
+sleep 5 && clear
