@@ -19,3 +19,5 @@ cat << 'EOF'
 Hi! Work in progress...
 EOF
 echo -e "${RESET}"
+
+sleep 2 && clear
