@@ -7,7 +7,7 @@ clear
 BLUE="\033[1;34m"
 RESET="\033[0m"
 
-echo -e "${BLUE}"
+printf "${BLUE}"
 cat << 'EOF'
 ███████╗██╗  ██╗ ██████╗ ██╗  ██╗██╗   ██╗███╗   ███╗ █████╗ ███╗   ██╗
 ██╔════╝╚██╗██╔╝██╔═══██╗██║  ██║██║   ██║████╗ ████║██╔══██╗████╗  ██║
@@ -18,6 +18,6 @@ cat << 'EOF'
                                                                        
 Hi! Work in progress...
 EOF
-echo -e "${RESET}"
+printf  "${RESET}"
 
 sleep 5 && clear
